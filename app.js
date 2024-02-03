@@ -60,6 +60,6 @@ function reiniciarJogo() {
     limparCampo();
     mostrarMensagemInicial();
     tentativas = 1;
-    qtdMaxima += 10;
+    qtdMaxima += 5;
     document.getElementById('reiniciar').setAttribute('disabled', true);
 }
